@@ -1,0 +1,42 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next -p 80",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie": "^0.4.1",
+    "framer-motion": "^1.10.3",
+    "html-to-react": "^1.4.2",
+    "html-to-text": "^5.1.1",
+    "next": "latest",
+    "node-fetch": "^2.6.0",
+    "react": "^16.12.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.12.0",
+    "react-elastic-carousel": "^0.9.5",
+    "react-google-maps": "^9.4.5",
+    "react-gtm-module": "^2.0.10",
+    "react-hamburger-menu": "^1.2.1",
+    "react-icons": "^3.11.0",
+    "react-share": "^4.3.0",
+    "react-sublime-video": "^0.2.5",
+    "styled-components": "^5.1.1"
+  },
+  "alias": {
+    "#components": "./components"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
+  }
+}

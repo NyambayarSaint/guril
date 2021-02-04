@@ -6,6 +6,7 @@ import { MenuProvider } from "@/miscs/ContextMenuProvider";
 import { ThemeProvider } from "styled-components";
 import * as theme from "@/miscs/theme";
 import TagManager from "react-gtm-module";
+import "@/core/animate-scroll.css";
 
 class MyApp extends App {
   state = {

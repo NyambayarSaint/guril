@@ -4,7 +4,6 @@ import minimize from './miscs/minimize';
 import {IoMdClose, IoIosPlay} from 'react-icons/io'
 import SublimeVideo from 'react-sublime-video'
 import ScrollAnimation from 'react-animate-on-scroll';
-import "@/core/animate-scroll.scss";
 
 const Totogrid4 = ({data}) => {
     

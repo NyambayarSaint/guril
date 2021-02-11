@@ -4,10 +4,10 @@ import minimize from './miscs/minimize';
 
 const SmBanner = ({data}) => {
     return (
-        <Container className="container-fluid" style={{backgroundImage: `url(${data ? minimize(data.Background, 'large') : 'https://legendsportsnetwork.com/wp-content/uploads/2018/12/news.jpg'})`}}>
+        <Container className="container-fluid" style={{backgroundImage: `url(${data ? minimize(data.Background, 'large') : 'https://scx2.b-cdn.net/gfx/news/2018/4-wheat.jpg'})`}}>
             <div className="row">
                 <div className="col-md-12 bottom">
-                    <h1>{data && data.Title || 'News'}</h1>
+                    <h1>{data && data.Title || 'Мэдээ мэдээлэл'}</h1>
                 </div>
             </div>
         </Container>

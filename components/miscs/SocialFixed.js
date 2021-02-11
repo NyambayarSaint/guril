@@ -52,7 +52,7 @@ const Wrapper = styled.div `
     .icons{
         text-align:center;
         line-height:42px;
-        background:black;
+        background:${({theme})=>theme.mainColor2};
         color:white;
         height:42px;
         width:42px;

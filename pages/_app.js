@@ -17,8 +17,8 @@ class MyApp extends App {
     general: {},
     completelyLoaded: false,
     darken: false,
-    name: 'Ub guril',
-    description: 'To be continued...',
+    name: 'Улаанбаатар гурил ХХК',
+    description: 'Үндэсний томоохон үйлдвэрлэгчийн нэг Улаанбаатар Гурилын Үйлдвэр нь 2001 онд анх байгуулагдсан ба улмаар үйлдвэрээ өргөтгөн 2012 онд Дархан хотын үйлдвэрийн районд Турк улсын Alapala компанийн тоног төхөөрөмжөөс бүтсэн хоногт 300 тн улаан буудай тээрэмдэх хүчин чадалтай бүрэн автоматжсан, компьютер удирдлагын системтэй, босоо технологитой 5 давхар үйлдвэр байгуулсан билээ.',
     serverUrl: 'http://ad-ubguril.tavanbogd.com',
     frontUrl: 'http://ubguril.tavanbogd.com'
   };

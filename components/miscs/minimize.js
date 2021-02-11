@@ -2,7 +2,7 @@ import {MenuContext} from '@/miscs/ContextMenuProvider'
 import { useContext } from 'react';
 
 const placeholder = '/img/placeholder.jpg'
-const path = `http://192.168.10.88:1351`;
+const path = `http://ad-ubguril.tavanbogd.com`;
 
 const minimize = (obj, quality) => {
 

@@ -19,7 +19,7 @@ class MyApp extends App {
     darken: false,
     name: 'Ub guril',
     description: 'To be continued...',
-    serverUrl: 'http://192.168.10.88:1351',
+    serverUrl: 'http://ad-ubguril.tavanbogd.com',
     frontUrl: 'http://192.168.10.88:8087'
   };
   async componentDidMount() {

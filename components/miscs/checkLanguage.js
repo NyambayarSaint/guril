@@ -9,12 +9,12 @@ const checkLanguage = async (queryString, req, normal) =>{
     if(normal){
         return new Promise(async(resolve, reject) => {
             if(cookies['tb-lang'] === "en"){
-                const res = await fetch(`http://192.168.10.88:1351${queryString}`);
+                const res = await fetch(`http://ad-ubguril.tavanbogd.com${queryString}`);
                 const pageData = await res.json();
                 return resolve({data: pageData});
             }
             else{
-                const res = await fetch(`http://192.168.10.88:1351${queryString}`);
+                const res = await fetch(`http://ad-ubguril.tavanbogd.com${queryString}`);
                 const pageData = await res.json();
                 return resolve({data: pageData});
             }
@@ -23,12 +23,12 @@ const checkLanguage = async (queryString, req, normal) =>{
   
     return new Promise(async(resolve, reject)=>{
       if(cookies['tb-lang'] === "en"){
-          const res = await fetch('http://192.168.10.88:1351/graphql', httpObject)
+          const res = await fetch('http://ad-ubguril.tavanbogd.com/graphql', httpObject)
           const pageData = await res.json()
           return resolve({data: pageData.data});
       }
       else{
-          const res = await fetch('http://192.168.10.88:1351/graphql', httpObject)
+          const res = await fetch('http://ad-ubguril.tavanbogd.com/graphql', httpObject)
           const pageData = await res.json()
           return resolve({data: pageData.data});
       }

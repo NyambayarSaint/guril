@@ -28,8 +28,8 @@ class MyApp extends App {
     this.setState({ completelyLoaded: true, config, menu: res.data.menu.Menu, general: res.data.menu.Footer, information: res.data.menu.Copyright});
 
     // GOOGLE TAG MANAGER
-    // const tagManagerArgs = { gtmId: "GTM-5GWNX89" };
-    // TagManager.initialize(tagManagerArgs);
+    const tagManagerArgs = { gtmId: "GTM-NTFNJVQ" };
+    TagManager.initialize(tagManagerArgs);
   }
 
   handleDarken = (msg) => {

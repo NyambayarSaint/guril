@@ -20,7 +20,7 @@ class MyApp extends App {
     name: 'Ub guril',
     description: 'To be continued...',
     serverUrl: 'http://ad-ubguril.tavanbogd.com',
-    frontUrl: 'http://192.168.10.88:8087'
+    frontUrl: 'http://ubguril.tavanbogd.com'
   };
   async componentDidMount() {
     const res = await checkLanguage(queryString, null);
